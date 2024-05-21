@@ -1,0 +1,135 @@
+﻿body
+{
+	background: rgb(0,0,200);
+	overflow-y:scroll;
+}
+h2
+{
+	border-color:rgb(255,255,255);
+	border-bottom-style: solid;
+	border-bottom-width:5px;
+}
+.myp
+{
+	font-weight: 100;
+	font-size: x-large;
+}
+.myul1 
+{
+	font-weight: 100;
+	font-size: x-large;
+	list-style-type: lower-alpha;
+}
+.myul2
+{
+	font-weight: 100;
+	font-size: x-large;
+	list-style-type: decimal;
+}
+span
+{
+	width:60%;
+	text-align: left;
+	font-weight: 100;
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	padding: 1% 12% 2% 28%;
+	color: rgb(255,255,255);
+	display:none;
+	font-family: monospace;
+}
+.mydiv
+{
+	background: rgb(0,0,200);
+	color: rgb(255,255,255);
+	width: 15%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: monospace;
+	letter-spacing: -1px;
+	border-width: 10px;
+	border-top-style: none;
+	border-right-style: double;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.mya{
+	display: block;
+	padding: 10% 0;
+}
+.mya:hover
+{
+	background: rgb(0,180,180);
+	color: rgb(0,0,200);
+	cursor: pointer;
+}
+.mya:active
+{
+	color: red;
+}
+/*жирный*/
+.thick
+{
+	font-weight: 900;
+}
+.myp2
+{
+	font-weight: 900;
+	font-size: x-large;
+	list-style-type: lower-alpha;
+	font-size: 3em;
+}
+/*панель на которой будут кнопки для выбора режима*/
+.realm
+{
+	border-style: double;
+	border-width: 10px;
+	text-align: center;
+	width: 600px;
+	height: 180px;
+	color: white;
+	font-size: 1.5em;
+	background: grey;
+	vertical-align: bottom;
+	/*текст*/
+	font-weight: 900;
+	font-size: x-large;
+	list-style-type: lower-alpha;
+}
+/*кнопки на панели выбора режима*/
+.realm2
+{
+	/*размеры кнопки*/
+	width: 200px;
+	height: 50px;
+	background: white;
+	box-shadow: 10px 10px black;
+	/*текст*/
+	color: black;
+	padding:15px 40px 15px 40px;
+	text-align: center;
+	/**/
+	display: inline;
+	cursor: pointer;
+	border:6px solid white;
+}
+.realm2:hover
+{
+	color: rgb(0,0,200);
+	background: rgb(0,180,180);
+	border-color: rgb(0,180,180);
+}
+.realm2:active
+{
+	border:6px groove Yellow;
+	color: red;
+	-ms-transform:translate(0px,10px);
+	-moz-transform:translate(0px,10px);
+	box-shadow: 0px 0px black;
+}

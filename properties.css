@@ -1,0 +1,63 @@
+/*Рамки(border)*/
+p.frame1
+{
+	padding: 5px;
+	border: 5px solid green;
+	width: 90px;
+	height: 90px;
+}
+div
+{
+	border: 5px solid green;
+	width: 90px;
+	height: 90px;
+}
+p.frame2
+{
+	padding: 10px;
+	border-top-style: dashed;
+	border-right-style: double;
+	border-bottom-style: groove;
+	border-left-style: outset;
+	border-color: red;
+	border-width: 10px;
+}
+
+body.bluesky
+{
+	background-color: #87CEFA;
+}
+body.image
+{
+	background-image: url("ci.png");
+	background-repeat: no-repeat;
+	float: left;
+	/*background-attachment: fixed;*/
+}
+ul.square
+{
+	list-style-type: square;
+}
+caption
+{
+	caption-side: top;
+}
+
+a:hover
+{
+	color: red;
+}
+a:link
+{
+	border: none;/*убирает рамку изображений с ссылками*/
+	outline: none;/*убирает пунктирную рамку с нажатых строк в браузере IE*/
+	text-decoration: none;/*Убирает нижнее подчеркивание*/
+}
+button
+{
+	margin-top:30px;
+	float:right;
+	height:50px;
+}
+/*Курсор мыши*/
+<span style="cursor:text;">Help</span>

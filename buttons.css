@@ -1,0 +1,67 @@
+.mydiv
+{
+	background: rgb(0,0,200);
+	color: rgb(255,255,255);
+	width: 15%;
+	height: 10%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	transition: all 0.3s ease;
+	/*текст*/
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: monospace;
+	letter-spacing: -1px;
+	/*рамка*/
+	border-width: 10px;
+	border-top-style: none;
+	border-right-style: double;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.mydivdiv
+{
+	background: rgb(0,0,200);
+	color: rgb(255,255,255);
+	width: 15%;
+	height: 10%;
+	position: fixed;
+	top: 20%;
+	left: 0px;
+	text-align: center;
+	transition: all 0.3s ease;
+	/*текст*/
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: monospace;
+	letter-spacing: -1px;
+	/*рамка*/
+	border-width: 10px;
+	border-top-style: none;
+	border-right-style: double;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.mydivdiv:hover
+{
+	/*фон кнопки*/
+	background:rgb(0,180,180);
+	/*текст кнопки*/
+	color: rgb(0,0,0);
+	cursor: pointer;
+}
+a{
+	display: block;
+	padding: 10% 0;
+}
+/*ДЕЙСТВИЯ ПО НАВЕДЕНИЮ НА ПОЛЕ <a>*/
+a:hover
+{
+	/*фон кнопки*/
+	background:rgb(0,180,180);
+	/*текст кнопки*/
+	color: rgb(0,0,0);
+	cursor: pointer;
+}
